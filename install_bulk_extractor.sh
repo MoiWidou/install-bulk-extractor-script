@@ -11,9 +11,9 @@ sudo yum install -y git wget unzip autoconf automake libtool \
 
 echo ">>> Downloading libewf..."
 cd ~
-wget https://github.com/libyal/libewf/releases/download/20220121/libewf-experimental-20220121.tar.gz
-tar -xvf libewf-experimental-20220121.tar.gz
-cd libewf-20220121
+wget https://github.com/libyal/libewf/archive/refs/tags/libewf-experimental-20231119.tar.gz -O libewf-20231119.tar.gz
+tar -xvf libewf-20231119.tar.gz
+cd libewf-libewf-experimental-20231119
 
 echo ">>> Building libewf..."
 ./configure
